@@ -1,10 +1,10 @@
 import sys
 import random
 
-file = sys.argv[1]
-with open(file, 'r') as f:
-    lines = f.readlines()
+file2 = sys.argv[1]
+with open(file2, 'r') as fi:
+    lines = fi.readlines()
 
-for line in lines:
+for l in lines:
     if random.random() < .01:
-        print(line)
+        print(l)
